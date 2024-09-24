@@ -6,55 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="input.css">
     <title>Document</title>
+    
 </head>
-<body>
+ <body> 
 
   
-  
-    <nav class="px-2 py-2 bg-black text-white flex">
+
+
+<nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
+  <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
+      <a href="#" class="flex items-center w-16">
         
-       <div class="w-16"> 
-        <img class="rounded-full" src="img/modern-restaurant-logo-design-te.png">
-    </div>
-    
-            <ul class="px-2 py-2 flex space-x-7 text-lg">
-            
-            <a href="about.html" class="cursor-pointer hover:text-black">About</a>
-            <a href="service.html" class="cursor-pointer hover:text-gray-900">Services</a>
-            <a href="contact.html" class="cursor-pointer hover:text-black">ContactUs</a>
-            <a href="#" class="cursor-pointer hover:text-black">Portfolio</a>
-            
-        </ul>
-    </nav>
+          <img src="img\canva-black-circle-with-utensils.png" class="h-16  mr-3" alt="">
+          <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">Restro</span>
+      </a>
+      <div class="flex items-center lg:order-2">
+          <div class="hidden mt-2 mr-4 sm:inline-block">
+              <span></span>
+          </div>
 
-
-  
-    
-    <main class="bg-[url('img/Landing_image_Desktop.jpg')] h-[80vh] bg-cover opacity-85">
-      
-      
-      <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
-
-      <div class="text-6xl pl-20 text-white sm:text-center">
-               <h1 class="">THE YUMMY IN RESTURANT</h1>
-            </div>
-            <p class="py-3 pl-3 text-white font-bold mt-20">The best restaurant websites have one thing in common: beautiful presentation. An attractive design with excellent<br> imagery can bring you many customers. Usability is important. But it’s the mouth-watering visuals that make these sites great.
-
-                The visual presentation <br>should not distract your visitors from getting key information, however. Your locations, menu items and opening hours should be easily accessible.
+          <a href="signup.html"
+              class="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800">Signup</a>
+          <button data-collapse-toggle="mobile-menu-2" type="button"
+      class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+      aria-controls="mobile-menu-2" aria-expanded="true">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+          clip-rule="evenodd"></path>
+      </svg>
+      <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd"
+          d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+          clip-rule="evenodd"></path>
+      </svg>
+    </button>
+      </div>
+      <div class="items-center justify-between w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+          <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+              <li>
+                  <a href="#"
+                      class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white"
+                      aria-current="page">Home</a>
+              </li>
+              <li>
+                  <a href="#"
+                      class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">About</a>
+              </li>
+              <li>
+                  <a href="contact.html"
+                      class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+              </li>
+              <li>
+                  <a href="#"
+                      class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Service</a>
+              </li>
+              
                 
-            </p>
+          </ul>
+      </div>
+  </div>
+</nav>
 
-            <button class="bg-blue-300 hover:bg-green-300 text-black font-bold py-2 px-4 rounded-full ml-16 mt-12">
-              Contact US
-            </button>
-            <button class="bg-blue-300 hover:bg-green-300 text-black font-bold py-2 px-4 rounded-full">
-              Follow Page
-            </button>
-        
-        
-    </main>
-    
-    <div class="space-y-6 mt-4">
+<div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
+  <div class="absolute inset-0">
+    <img src="img/Landing_image_Desktop.jpg" alt="Background Image" class="object-cover object-center w-full h-full" />
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+  </div>
+  
+  <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
+    <h1 class="text-5xl font-bold leading-tight mb-4">THE YUMMY IN RESTURANT</h1>
+    <p class="text-lg text-gray-300 mb-8 ml-4">The best restaurant websites have one thing in common: beautiful presentation. An attractive design with excellent imagery can bring you many customers. Usability is important. But it’s the mouth-watering visuals that make these sites great.</p>
+    <a href="#" class="bg-yellow-400 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Get Started</a>
+  </div>
+</div>
+
+
+<div class="space-y-6 mt-4">
         
         
         Restaurants are not just places to satisfy our hunger,they are also places where we can connect with others,celebrate life's moments.
@@ -103,7 +132,7 @@
                   </div>
                   <div class="bg-white rounded-lg shadow-lg p-8">
                       <div class="relative overflow-hidden">
-                          <img class="object-cover w-full h-full" src="img/2.jpg" alt="Product">
+                          <img class="object-cover w-full h-full" src="img\2.jpg" alt="Product">
                           <div class="absolute inset-0 bg-black opacity-40"></div>
                           <div class="absolute inset-0 flex items-center justify-center">
                               
@@ -121,8 +150,127 @@
           </div>
       </div>
 
+      <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0 mt-5">
+        <h2 class="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Services</h2>
+        <p class="mb-12 text-lg text-gray-500">Here is a few of the awesome Services we provide.</p>
+        <div class="w-full">
+            <div class="flex flex-col w-full mb-10 sm:flex-row">
+                <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
+                    <div class="relative h-full ml-0 mr-0 sm:mr-10">
+                        <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-indigo-500 rounded-lg"></span>
+                        <div class="relative h-full p-5 bg-white border-2 border-indigo-500 rounded-lg">
+                            <div class="flex items-center -mt-1">
+                                <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">Attentive Waitstaff</h3>
+                            </div>
+                            <p class="mt-3 mb-1 text-xs font-medium text-indigo-500 uppercase">------------</p>
+                            <p class="mb-2 text-gray-600">Attentive waitstaff are the backbone of good customer service. They go beyond taking orders and delivering food; they engage with diners, exhibit impeccable politeness, and are quick to respond to any requests or inquiries. Their ability to anticipate diners’ needs, whether it’s refilling glasses, providing extra napkins, or suggesting complementary dishes, ensures a seamless and delightful dining experience.
 
- <footer class="bg-[url('img/d43010fdb3fd6ca7c38d6e268c92563a.jpg')] bg-no-repeat bg-cover">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/2">
+                    <div class="relative h-full ml-0 md:mr-10">
+                        <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-purple-500 rounded-lg"></span>
+                        <div class="relative h-full p-5 bg-white border-2 border-purple-500 rounded-lg">
+                            <div class="flex items-center -mt-1">
+                                <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">Counter Service: </h3>
+                            </div>
+                            <p class="mt-3 mb-1 text-xs font-medium text-purple-500 uppercase">------------</p>
+                            <p class="mb-2 text-gray-600">Counter-service restaurants usually have a small menu of prepared foods, such as sandwiches, salads, and coffee which are ordered and paid for at the counter. Customers can then bring their food to the table or eat on the go. Counter-service restaurants are often fast and convenient, with a focus on efficiency.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col w-full mb-5 sm:flex-row">
+                <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
+                    <div class="relative h-full ml-0 mr-0 sm:mr-10">
+                        <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-blue-400 rounded-lg"></span>
+                        <div class="relative h-full p-5 bg-white border-2 border-blue-400 rounded-lg">
+                            <div class="flex items-center -mt-1">
+                                <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">Table Service</h3>
+                            </div>
+                            <p class="mt-3 mb-1 text-xs font-medium text-blue-400 uppercase">------------</p>
+                            <p class="mb-2 text-gray-600">Table service is a common type of restaurant service all over the world. In this type of service, customers are seated at a table and served by a waiter or waitress. Servers take customer orders, proceed with the food service, and provide assistance during meals.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full mb-10 sm:mb-0 sm:w-1/2">
+                    <div class="relative h-full ml-0 mr-0 sm:mr-10">
+                        <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-yellow-400 rounded-lg"></span>
+                        <div class="relative h-full p-5 bg-white border-2 border-yellow-400 rounded-lg">
+                            <div class="flex items-center -mt-1">
+                                <h3 class="my-2 ml-3 text-lg font-bold text-gray-800">Prompt Service</h3>
+                            </div>
+                            <p class="mt-3 mb-1 text-xs font-medium text-yellow-400 uppercase">------------</p>
+                            <p class="mb-2 text-gray-600">Prompt service is a crucial component of good customer service. In British restaurants, punctuality is highly valued, and customers expect their meals to be served promptly. When dishes arrive at the table hot and fresh, it not only reflects efficiency but also contributes to an overall sense of satisfaction, ensuring that diners have a seamless and enjoyable dining experience </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full sm:w-1/2">
+                    <div class="relative h-full ml-0 md:mr-10">
+                        <span class="absolute top-0 left-0 w-full h-full mt-1 ml-1 bg-green-500 rounded-lg"></span>
+                        <div class="relative h-full p-5 bg-white border-2 border-green-500 rounded-lg">
+                            <div class="flex items-center -mt-1">
+                                <h3 class="my-2 ml-3 text-lg font-bold text-gray-800"> The Welcoming Smile</h3>
+                            </div>
+                            <p class="mt-3 mb-1 text-xs font-medium text-green-500 uppercase">------------</p>
+                            <p class="mb-2 text-gray-600">The welcoming smile sets the tone for a memorable dining experience. When a host or hostess greets guests with a warm smile and polite salutations, it not only creates a positive first impression but also conveys a sense of hospitality that immediately puts diners at ease.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- source:https://tailwind.besoeasy.com -->
+
+
+    <sect class="w-full mx-auto py-10 bg-gray-50 dark:bg-gray-900 dark:text-white">
+      <!-- <div class="w-fit pb-1 px-2 mx-4 rounded-md text-2xl font-semibold border-b-2 border-blue-600 dark:border-b-2 dark:border-yellow-600"></div> -->
+  
+      <div class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4">
+        <div class="lg:w-[50%] xs:w-full">
+          <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="img\restaarant.jpg" alt="billboard image" />
+        </div>
+        <div class="lg:w-[50%] sm:w-full xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 md:p-4 xs:p-0 rounded-md">
+          <h2 class="text-3xl font-semibold text-gray-900 dark:text-white">Restaurant Decoration Ideas</h2>
+          <p class="text-md mt-4">First Impressions Matter A beautifully decorated restaurant sets the tone for the entire experience, creating a positive impact on your customers from the moment they walk through the doo Ambience A nicely set-up restaurant’s interior decor contributes to a sense of comfort and belongingness, drawing your customers in for a relaxing experience.</p>
+        </div>
+      </div>
+      <!-- col-2 -->
+      <div class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-6">
+        <!--  -->
+        <div class="md:hidden sm:block xs:block xs:w-full">
+          <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="" alt="" />
+        </div>
+        <!--  -->
+        <div class="lg:w-[50%] xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 md:p-4 xs:p-0 rounded-md">
+          <h2 class="text-3xl font-semibold text-gray-900 dark:text-white">Key Traits of a Restaurant Chef</h2>
+  
+          <p class="text-md mt-4">While both handle cooking and plating food, there are key differences between a restaurant chef and a cook. Typically, a chef creates the recipes, establishes the cooking techniques, and takes on a managerial role in the kitchen.
+
+            Restaurant cooks are trained to prepare these established recipes. In many establishments, cooks will take on some overlapping functions and administrative tasks of the chef as they work their way up the kitchen hierarchy.</p>
+        </div>
+        <!--  -->
+        <div class="md:block sm:hidden xs:hidden lg:w-[50%] xs:w-full">
+          <img class="lg:rounded-t-lg xs:rounded-sm" src="img\360_F_311193887_0aXFwwXXHu4PsBAV.jpg" alt="billboard image" />
+        </div>
+      </div>
+
+      <div class="xl:w-[80%] sm:w-[85%] xs:w-[90%] mx-auto flex md:flex-row xs:flex-col lg:gap-4 xs:gap-2 justify-center lg:items-stretch md:items-center mt-4 mb-4">
+        <div class="lg:w-[50%] xs:w-full">
+          <img class="lg:rounded-t-lg sm:rounded-sm xs:rounded-sm" src="img\GIGI20001.jpg" alt="billboard image" />
+        </div>
+        <div class="lg:w-[50%] sm:w-full xs:w-full bg-gray-100 dark:bg-gray-900 dark:text-gray-400 md:p-4 xs:p-0 rounded-md">
+          <h2 class="text-3xl font-semibold text-gray-900 dark:text-white">Food Environment</h2>
+          <p class="text-md mt-4">The local food environment can be defined as all aspects of the local environment that influence dietary behaviors. According to Glanz et al., it encompasses three domains: the community food environment (food outlets and their accessibility), the organizational food environment (home, school, work, etc.), and the consumer food environment (availability, affordability, and acceptability). A further elaboration of this model includes macrolevel environment influences, such as societal norms and culture, industry, policies, and other systems related to the local food environment.</p>
+        </div>
+      </div>
+  
+    <!-- Photo by '@candjstudios' & '@framesforyourheart' on Unsplash -->
+
+
+ <footer class="bg-[url('img\d43010fdb3fd6ca7c38d6e268c92563a.jpg')] bg-no-repeat bg-cover">
 
   
         <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
